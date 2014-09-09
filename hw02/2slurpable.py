@@ -11,6 +11,7 @@ def main():
         with open("flat_file_database.csv","wb") as outfile:
                 w=csv.DictWriter(outfile,dictionary.keys())
                 w.writeheader()
-                w.writerow(dictionary)        
+                w.writerow(dictionary)
+        outfile.close()
 if __name__=='__main__':
         main()
