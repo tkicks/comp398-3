@@ -1,6 +1,3 @@
-<!DOCTYPE HTML>
-<HTML>
-<HEAD>
 <TITLE>Nathan Morse</TITLE>
 </HEAD><BODY>
 <H1>About Me</H1>
