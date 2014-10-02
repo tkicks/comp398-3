@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<body background="http://www.londonholisticnutrition.com/wp-content/themes/lhn/images/main-body-background.jpg">
+<head>
+<title>Latest News</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="http://leafletjs.com/dist/leaflet.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+            <p id="World"> World News </p>
+<center><img id="FirstImage" src="https://c2.staticflickr.com/6/5236/7415039084_0931f63a5f_z.jpg"/>
+</center>
+
+ <marquee><font color=red size=3><b>World News | Entertainment| Health| Technology</b></font></marquee> 
+    
+<h2><strong>Latest News </strong></h2>
+<h3>Hong Kong protests: In the thick of it.</h3> 
+    <p>Updated September 30, 2014</p> 
+    <p>Tens of thousands of protesters remain on the streets of Hong Kong, not relenting in their demand for democracy. Demonstrators camped out wearing masks, protective goggles and plastic raincoats – anything to protect against the possibility of tear gas that police fired days earlier. It's now October 1 in China, a national holiday, and many in Hong Kong tell CNN they plan to take advantage of the time off to join the demonstrations.</p>
+ <p>The student-led unrest was sparked by China's insistence that it vet candidates for a 2017 election in Hong Kong – even though residents in Hong Kong had been promised that they would be able to freely elect their leaders.</p> 
+</head>
+<left><img id="HongKong" src="http://www.straitstimes.com/sites/straitstimes.com/files/20140601/rh-HONG%20KONG-CHINA-DEMOCRACY-POLITICS-PROTEST-TIANANMEN-16514e.jpg" />
+</left>
+<p><i>Protesters continue to rally outside the Hong Kong Government Complex on Tuesday, September 30, 2014. Hong Kong Chief Executive C.Y. Leung urged protesters to clear the roads Tuesday, saying they might pose a risk to public safety. (Photo: Anthony Kwan/Getty Images)</i></p>
+
+<strong><p> For More Information about Hong Kong, click <a href="http://mashable.com/2014/09/29/hong-kong-democracy-protests/"> here. </a></p></strong>
+
+  <div id="map" style="width: 100%; height: 400px"></div>
+  <script src="http://leafletjs.com/dist/leaflet.js"></script>
+  <script>
+
+    var map = L.map('map').setView([22.28, 114.18], 13);
+
+    L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      id: 'examples.map-i875mjb7'
+
+    }).addTo(map);
+  </script>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+		        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		        <script>
+		            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		            e.src='//www.google-analytics.com/analytics.js';
+		            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		            ga('create','UA-XXXXX-X');ga('send','pageview');
+		        </script>
+    </body>
+</html>
